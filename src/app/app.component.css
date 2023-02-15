@@ -1,0 +1,17 @@
+.side-navbar-container{
+    left: 0;
+    right: 0;
+    height: 652px;
+    
+     /* height: 90%; */
+}
+
+.side-navbar{
+    padding-top: calc(.56 *(1.5vh + .1vw));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17%;
+    height: 800px;
+    background-color: black;
+}

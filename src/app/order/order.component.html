@@ -1,0 +1,29 @@
+<!-- <p>order works!</p> -->
+
+<div class="container">
+  <!-- {{order.serialno}} -->
+  <table>
+    <thead>
+
+      <th>serialno </th>
+      <th>product</th>
+      <th>quantity</th>
+      <th> order_ID</th>
+      <th>customer_name</th>
+      <th>customer_number</th>
+      <th>customer_address</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let val of order">
+        <td>{{val.serialno}}</td>
+        <td>{{val.product}</td>
+        <td>{{val.quantity}}</td>
+        <td>{{val.order_ID}}</td>
+        <td>{{val.customer_name}}</td>
+        <td>{{val.customer_number}}</td>
+        <td>{{val.customer_address}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

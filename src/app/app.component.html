@@ -1,0 +1,14 @@
+<header></header>
+<mat-sidenav-container class="side-navbar-container">
+
+  <mat-sidenav #sidenav opened mode="side" autosize class="side-navbar" *ngIf="isOpened">
+
+
+    <side-menu></side-menu>
+  </mat-sidenav>
+
+  <router-outlet></router-outlet>
+
+</mat-sidenav-container>
+
+<footer></footer>
